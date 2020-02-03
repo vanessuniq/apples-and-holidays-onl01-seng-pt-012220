@@ -81,6 +81,7 @@ def all_holidays_with_bbq(holiday_hash)
     holiday.each do |attribute, supply|
       if supply.include?("BBQ")
         array_with_bbq << attribute
+        array_with_bbq
       end 
     end 
   end 
