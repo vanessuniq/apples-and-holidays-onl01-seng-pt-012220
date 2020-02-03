@@ -44,6 +44,7 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
   # code here
   holiday_supplies[:winter][:christmas_eve] = ["Glitter", "Lights", "Carol"]
   # remember to return the updated hash
+  holiday_supplies
 
 end
 
