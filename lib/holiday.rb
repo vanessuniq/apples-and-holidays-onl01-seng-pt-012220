@@ -70,7 +70,7 @@ def all_supplies_in_holidays(holiday_hash)
     holiday.each do |attribute, supply|
       array = attribute.to_s.split('_')
       array.collect do |element|
-        element.capitalize
+        element.capitalize!
       end
       string2 = puts "  #{array.join(' ')}: #{supply.join(', ')}"
     end 
