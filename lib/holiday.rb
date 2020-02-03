@@ -72,7 +72,7 @@ def all_supplies_in_holidays(holiday_hash)
       array.collect do |element|
         element.capitalize
       end
-      string2 = puts "  #{attribute.to_s.split('_').join(' ')}: #{supply.join(', ')}"
+      string2 = puts "  #{array.join(' ')}: #{supply.join(', ')}"
     end 
    string1
    string2
